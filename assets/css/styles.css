@@ -129,7 +129,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #000;
+  background-color: transparent;
 }
 
 /*===== NAV =====*/
@@ -243,6 +243,9 @@ img {
 
 /*===== HOME =====*/
 .home {
+  /* background-image: url("../img/bg.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #000;
   overflow: hidden;
 }
@@ -282,7 +285,7 @@ img {
 
 .home__img {
   position: absolute;
-  right: 0;
+  right: -150px;
   bottom: 0;
 }
 
@@ -727,7 +730,7 @@ img {
     margin-bottom: 0;
   }
   .home__img img {
-    width: 420px;
+    width: 550px;
   }
   .about__description {
     text-align: initial;
