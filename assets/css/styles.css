@@ -810,3 +810,19 @@ img {
 		column-gap: 6rem;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.home__img {
+		right: -5px;
+	}
+
+	.home__img img {
+		width: 100%;
+		height: auto;
+	}
+
+	.about__img {
+		margin-top: 2rem;
+		justify-self: center;
+	}
+}
