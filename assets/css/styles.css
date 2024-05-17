@@ -771,7 +771,7 @@ img {
 	}
 	.services__container,
 	.portfolio__container {
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 	}
 	.project__container {
 		padding: 4.5rem 0;
