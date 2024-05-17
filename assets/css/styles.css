@@ -364,6 +364,7 @@ img {
 }
 
 .about__description span {
+	text-align: center;
 	font-size: var(--h2-font-size);
 	font-weight: var(--font-semi-bold);
 	color: var(--first-color);
@@ -760,7 +761,7 @@ img {
 		width: 550px;
 	}
 	.about__description {
-		text-align: initial;
+		text-align: center;
 	}
 	.about__img {
 		width: 300px;
